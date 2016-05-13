@@ -1,6 +1,0 @@
-framework module Canape {
-  umbrella header "Canape-umbrella.h"
-
-  export *
-  module * { export * }
-}

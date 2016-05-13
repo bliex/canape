@@ -1,8 +1,0 @@
-use_frameworks!
-
-
-target 'Canape_Tests', :exclusive => true do
-  pod 'Canape', :path => '../'
-
-  
-end
