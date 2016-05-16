@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Canape_Tests' do
+  pod 'Canape', :path => '../'
+  
+  
+end

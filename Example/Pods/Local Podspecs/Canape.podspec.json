@@ -1,0 +1,19 @@
+{
+  "name": "Canape",
+  "version": "0.1.0",
+  "summary": "A short description of Canape.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Canape",
+  "license": "MIT",
+  "authors": {
+    "boozer83": "boozer@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Canape.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Canape/Classes/**/*"
+}

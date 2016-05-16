@@ -1,0 +1,16 @@
+PODS:
+  - Canape (0.1.0)
+
+DEPENDENCIES:
+  - Canape (from `../`)
+
+EXTERNAL SOURCES:
+  Canape:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Canape: 2c8516367943b9dcc5ce83f2e8442ecf05bd088d
+
+PODFILE CHECKSUM: 1d11f5158c6904fef63649265eef2a9fdc1b8c90
+
+COCOAPODS: 1.0.0
