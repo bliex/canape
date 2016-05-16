@@ -80,6 +80,10 @@
 		334BA5861CE98D390068F714 /* CPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5371CE98D390068F714 /* CPTabBar.m */; };
 		334BA5871CE98D390068F714 /* CPViewPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5381CE98D390068F714 /* CPViewPager.h */; };
 		334BA5881CE98D390068F714 /* CPViewPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5391CE98D390068F714 /* CPViewPager.m */; };
+		33E556E31CE9C249002D116A /* CPEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E556E11CE9C249002D116A /* CPEncryption.h */; };
+		33E556E41CE9C249002D116A /* CPEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E556E21CE9C249002D116A /* CPEncryption.m */; };
+		33E556E71CE9C254002D116A /* EncryptionPlistManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E556E51CE9C254002D116A /* EncryptionPlistManager.h */; };
+		33E556E81CE9C254002D116A /* EncryptionPlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E556E61CE9C254002D116A /* EncryptionPlistManager.m */; };
 		45D2D90DD4E7155F22DF07981D3109F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		6DD203DF4E8D6F434ACA1D2279FBE018 /* Pods-Canape_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E8BF0B4DD9F053205F5475809487A9 /* Pods-Canape_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92DDC9E61138DCCE8A67A14CAD39A6F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -178,6 +182,10 @@
 		334BA5381CE98D390068F714 /* CPViewPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPViewPager.h; sourceTree = "<group>"; };
 		334BA5391CE98D390068F714 /* CPViewPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPViewPager.m; sourceTree = "<group>"; };
 		334BA5891CE9A27A0068F714 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		33E556E11CE9C249002D116A /* CPEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPEncryption.h; sourceTree = "<group>"; };
+		33E556E21CE9C249002D116A /* CPEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPEncryption.m; sourceTree = "<group>"; };
+		33E556E51CE9C254002D116A /* EncryptionPlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionPlistManager.h; sourceTree = "<group>"; };
+		33E556E61CE9C254002D116A /* EncryptionPlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionPlistManager.m; sourceTree = "<group>"; };
 		3781DECC79E326C17E5C8ED48F130BEF /* Pods-Canape_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Canape_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		503BD21582CDEF215DA27F06869E20A1 /* Canape.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canape.xcconfig; sourceTree = "<group>"; };
 		86BE0AE39C1FA31BE52546BF145B2E3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -319,6 +327,8 @@
 		334BA5031CE98D390068F714 /* PlistManager */ = {
 			isa = PBXGroup;
 			children = (
+				33E556E51CE9C254002D116A /* EncryptionPlistManager.h */,
+				33E556E61CE9C254002D116A /* EncryptionPlistManager.m */,
 				334BA5061CE98D390068F714 /* PlistManager.h */,
 				334BA5071CE98D390068F714 /* PlistManager.m */,
 			);
@@ -413,6 +423,15 @@
 			path = ViewPager;
 			sourceTree = "<group>";
 		};
+		33E556E01CE9C249002D116A /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				33E556E11CE9C249002D116A /* CPEncryption.h */,
+				33E556E21CE9C249002D116A /* CPEncryption.m */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -424,6 +443,7 @@
 		45AA7CF1E11665374C9796CDF380E124 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				33E556E01CE9C249002D116A /* Encryption */,
 				334BA4DA1CE98D390068F714 /* ActionSheet */,
 				334BA4DD1CE98D390068F714 /* Alert */,
 				334BA4E01CE98D390068F714 /* BaseController */,
@@ -542,12 +562,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				334BA54B1CE98D390068F714 /* CPComboBase.h in Headers */,
+				33E556E31CE9C249002D116A /* CPEncryption.h in Headers */,
 				334BA5441CE98D390068F714 /* CPBaseViewController.h in Headers */,
 				2F29F5D1D4CD1428366FABEBAF82DA92 /* Canape-umbrella.h in Headers */,
 				334BA55E1CE98D390068F714 /* CPSelectableButton.h in Headers */,
 				334BA57A1CE98D390068F714 /* CPComboValidater.h in Headers */,
 				334BA5501CE98D390068F714 /* CPHybridController.h in Headers */,
 				334BA5471CE98D390068F714 /* UIButton+BGColor.h in Headers */,
+				33E556E71CE9C254002D116A /* EncryptionPlistManager.h in Headers */,
 				334BA57C1CE98D390068F714 /* CPTextFieldValidater.h in Headers */,
 				334BA5741CE98D390068F714 /* CPFileUtils.h in Headers */,
 				334BA5721CE98D390068F714 /* CPDateUtils.h in Headers */,
@@ -671,6 +693,7 @@
 				334BA5451CE98D390068F714 /* CPBaseViewController.m in Sources */,
 				334BA5791CE98D390068F714 /* CPUIUtils.m in Sources */,
 				334BA5571CE98D390068F714 /* CPImgLoader.m in Sources */,
+				33E556E41CE9C249002D116A /* CPEncryption.m in Sources */,
 				334BA5511CE98D390068F714 /* CPHybridController.m in Sources */,
 				334BA5611CE98D390068F714 /* CPSelectableButtonGroup.m in Sources */,
 				334BA5751CE98D390068F714 /* CPFileUtils.m in Sources */,
@@ -679,6 +702,7 @@
 				334BA5481CE98D390068F714 /* UIButton+BGColor.m in Sources */,
 				334BA56D1CE98D390068F714 /* CPTokenText.m in Sources */,
 				FBF7EF9AD6DFD47DE13CA7981E501894 /* Canape-dummy.m in Sources */,
+				33E556E81CE9C254002D116A /* EncryptionPlistManager.m in Sources */,
 				334BA5531CE98D390068F714 /* CPHybridPluginBase.m in Sources */,
 				334BA5841CE98D390068F714 /* CPValidationForm.m in Sources */,
 				334BA53D1CE98D390068F714 /* CPAlert.m in Sources */,
