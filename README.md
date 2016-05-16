@@ -22,7 +22,7 @@ pod "Canape"
 
 ## Author
 
-boozer83, boozer@naver.com
+bliex, canape@bliex.com
 
 ## License
 
