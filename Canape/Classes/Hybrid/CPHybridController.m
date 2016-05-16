@@ -39,6 +39,7 @@
     
     // 플러그인 매니저에 웹뷰 등록
     [[CPHybridPluginManager sharedInstance] setWebView:_webView];
+    
 }
 
 - (void)didReceiveMemoryWarning {

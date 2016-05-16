@@ -90,19 +90,6 @@
     return self;
 }
 
-- (NSString*)bundlePathForPod:(NSString*)podName
-{
-    // search all bundles
-    for (NSBundle* bundle in [NSBundle allBundles]) {
-        NSString* bundlePath = [bundle pathForResource:podName ofType:@"bundle"];
-        if (bundlePath) { return bundlePath; }
-    }
-    
-    // some pods do not use "resource_bundles"
-    // please check the pod's podspec
-    return nil;
-}
-
 - (void) initialize {
     self.semanticContentAttribute = UISemanticContentAttributeForceRightToLeft;
     
@@ -113,9 +100,9 @@
     self.contentEdgeInsets = UIEdgeInsetsMake(0, insetAmount + self.contentEdgeInsets.left, 0, insetAmount + self.contentEdgeInsets.right);
     
 //    UIImage *img = [self resizeImage:[UIImage imageNamed:ICON_IMAGE inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:[UITraitCollection traitCollectionWithDisplayScale:[UIScreen mainScreen].scale]] resizeWidth:self.frame.size.height / 3 * 2 resizeHeight:self.frame.size.height / 3 * 2];
-
-//    [self setImage:[UIImage imageNamed:ICON_IMAGE inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:[UITraitCollection traitCollectionWithDisplayScale:[UIScreen mainScreen].scale]] forState:UIControlStateNormal];
     
+//    [self setImage:[UIImage imageNamed:ICON_IMAGE inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:[UITraitCollection traitCollectionWithDisplayScale:[UIScreen mainScreen].scale]] forState:UIControlStateNormal];
+
     NSString *bundlePath = [[NSBundle bundleForClass:[CPToken class]]
                             pathForResource:@"Canape" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];

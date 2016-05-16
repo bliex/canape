@@ -28,8 +28,6 @@
 		334BA54A1CE98D390068F714 /* UIImage+CalendarCustomMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA4EE1CE98D390068F714 /* UIImage+CalendarCustomMethods.m */; };
 		334BA54B1CE98D390068F714 /* CPComboBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA4F01CE98D390068F714 /* CPComboBase.h */; };
 		334BA54C1CE98D390068F714 /* CPComboBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA4F11CE98D390068F714 /* CPComboBase.m */; };
-		334BA54D1CE98D390068F714 /* CPEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA4F31CE98D390068F714 /* CPEncryption.h */; };
-		334BA54E1CE98D390068F714 /* CPEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA4F41CE98D390068F714 /* CPEncryption.m */; };
 		334BA54F1CE98D390068F714 /* CPHybridConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA4F61CE98D390068F714 /* CPHybridConst.h */; };
 		334BA5501CE98D390068F714 /* CPHybridController.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA4F71CE98D390068F714 /* CPHybridController.h */; };
 		334BA5511CE98D390068F714 /* CPHybridController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA4F81CE98D390068F714 /* CPHybridController.m */; };
@@ -41,8 +39,6 @@
 		334BA5571CE98D390068F714 /* CPImgLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5001CE98D390068F714 /* CPImgLoader.m */; };
 		334BA5581CE98D390068F714 /* CPLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5011CE98D390068F714 /* CPLoader.h */; };
 		334BA5591CE98D390068F714 /* CPLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5021CE98D390068F714 /* CPLoader.m */; };
-		334BA55A1CE98D390068F714 /* EncryptionPlistManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5041CE98D390068F714 /* EncryptionPlistManager.h */; };
-		334BA55B1CE98D390068F714 /* EncryptionPlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5051CE98D390068F714 /* EncryptionPlistManager.m */; };
 		334BA55C1CE98D390068F714 /* PlistManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5061CE98D390068F714 /* PlistManager.h */; };
 		334BA55D1CE98D390068F714 /* PlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5071CE98D390068F714 /* PlistManager.m */; };
 		334BA55E1CE98D390068F714 /* CPSelectableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5091CE98D390068F714 /* CPSelectableButton.h */; };
@@ -51,10 +47,6 @@
 		334BA5611CE98D390068F714 /* CPSelectableButtonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA50C1CE98D390068F714 /* CPSelectableButtonGroup.m */; };
 		334BA5621CE98D390068F714 /* CPStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA50E1CE98D390068F714 /* CPStackView.h */; };
 		334BA5631CE98D390068F714 /* CPStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA50F1CE98D390068F714 /* CPStackView.m */; };
-		334BA5641CE98D390068F714 /* CommonToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5111CE98D390068F714 /* CommonToast.h */; };
-		334BA5651CE98D390068F714 /* CommonToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5121CE98D390068F714 /* CommonToast.m */; };
-		334BA5661CE98D390068F714 /* CommonToastButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5131CE98D390068F714 /* CommonToastButton.h */; };
-		334BA5671CE98D390068F714 /* CommonToastButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5141CE98D390068F714 /* CommonToastButton.m */; };
 		334BA5681CE98D390068F714 /* CPToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5151CE98D390068F714 /* CPToast.h */; };
 		334BA5691CE98D390068F714 /* CPToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5161CE98D390068F714 /* CPToast.m */; };
 		334BA56A1CE98D390068F714 /* CPToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5181CE98D390068F714 /* CPToken.h */; };
@@ -132,8 +124,6 @@
 		334BA4EE1CE98D390068F714 /* UIImage+CalendarCustomMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CalendarCustomMethods.m"; sourceTree = "<group>"; };
 		334BA4F01CE98D390068F714 /* CPComboBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPComboBase.h; sourceTree = "<group>"; };
 		334BA4F11CE98D390068F714 /* CPComboBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPComboBase.m; sourceTree = "<group>"; };
-		334BA4F31CE98D390068F714 /* CPEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPEncryption.h; sourceTree = "<group>"; };
-		334BA4F41CE98D390068F714 /* CPEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPEncryption.m; sourceTree = "<group>"; };
 		334BA4F61CE98D390068F714 /* CPHybridConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPHybridConst.h; sourceTree = "<group>"; };
 		334BA4F71CE98D390068F714 /* CPHybridController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPHybridController.h; sourceTree = "<group>"; };
 		334BA4F81CE98D390068F714 /* CPHybridController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPHybridController.m; sourceTree = "<group>"; };
@@ -146,8 +136,6 @@
 		334BA5001CE98D390068F714 /* CPImgLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPImgLoader.m; sourceTree = "<group>"; };
 		334BA5011CE98D390068F714 /* CPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLoader.h; sourceTree = "<group>"; };
 		334BA5021CE98D390068F714 /* CPLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLoader.m; sourceTree = "<group>"; };
-		334BA5041CE98D390068F714 /* EncryptionPlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionPlistManager.h; sourceTree = "<group>"; };
-		334BA5051CE98D390068F714 /* EncryptionPlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionPlistManager.m; sourceTree = "<group>"; };
 		334BA5061CE98D390068F714 /* PlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistManager.h; sourceTree = "<group>"; };
 		334BA5071CE98D390068F714 /* PlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManager.m; sourceTree = "<group>"; };
 		334BA5091CE98D390068F714 /* CPSelectableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSelectableButton.h; sourceTree = "<group>"; };
@@ -156,10 +144,6 @@
 		334BA50C1CE98D390068F714 /* CPSelectableButtonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSelectableButtonGroup.m; sourceTree = "<group>"; };
 		334BA50E1CE98D390068F714 /* CPStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPStackView.h; sourceTree = "<group>"; };
 		334BA50F1CE98D390068F714 /* CPStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPStackView.m; sourceTree = "<group>"; };
-		334BA5111CE98D390068F714 /* CommonToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonToast.h; sourceTree = "<group>"; };
-		334BA5121CE98D390068F714 /* CommonToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonToast.m; sourceTree = "<group>"; };
-		334BA5131CE98D390068F714 /* CommonToastButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonToastButton.h; sourceTree = "<group>"; };
-		334BA5141CE98D390068F714 /* CommonToastButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonToastButton.m; sourceTree = "<group>"; };
 		334BA5151CE98D390068F714 /* CPToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPToast.h; sourceTree = "<group>"; };
 		334BA5161CE98D390068F714 /* CPToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPToast.m; sourceTree = "<group>"; };
 		334BA5181CE98D390068F714 /* CPToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPToken.h; sourceTree = "<group>"; };
@@ -193,6 +177,7 @@
 		334BA5371CE98D390068F714 /* CPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTabBar.m; sourceTree = "<group>"; };
 		334BA5381CE98D390068F714 /* CPViewPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPViewPager.h; sourceTree = "<group>"; };
 		334BA5391CE98D390068F714 /* CPViewPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPViewPager.m; sourceTree = "<group>"; };
+		334BA5891CE9A27A0068F714 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		3781DECC79E326C17E5C8ED48F130BEF /* Pods-Canape_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Canape_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		503BD21582CDEF215DA27F06869E20A1 /* Canape.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canape.xcconfig; sourceTree = "<group>"; };
 		86BE0AE39C1FA31BE52546BF145B2E3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -302,8 +287,6 @@
 		334BA4F21CE98D390068F714 /* Encryption */ = {
 			isa = PBXGroup;
 			children = (
-				334BA4F31CE98D390068F714 /* CPEncryption.h */,
-				334BA4F41CE98D390068F714 /* CPEncryption.m */,
 			);
 			path = Encryption;
 			sourceTree = "<group>";
@@ -336,8 +319,6 @@
 		334BA5031CE98D390068F714 /* PlistManager */ = {
 			isa = PBXGroup;
 			children = (
-				334BA5041CE98D390068F714 /* EncryptionPlistManager.h */,
-				334BA5051CE98D390068F714 /* EncryptionPlistManager.m */,
 				334BA5061CE98D390068F714 /* PlistManager.h */,
 				334BA5071CE98D390068F714 /* PlistManager.m */,
 			);
@@ -367,10 +348,6 @@
 		334BA5101CE98D390068F714 /* Toast */ = {
 			isa = PBXGroup;
 			children = (
-				334BA5111CE98D390068F714 /* CommonToast.h */,
-				334BA5121CE98D390068F714 /* CommonToast.m */,
-				334BA5131CE98D390068F714 /* CommonToastButton.h */,
-				334BA5141CE98D390068F714 /* CommonToastButton.m */,
 				334BA5151CE98D390068F714 /* CPToast.h */,
 				334BA5161CE98D390068F714 /* CPToast.m */,
 			);
@@ -551,6 +528,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				334BA5891CE9A27A0068F714 /* Security.framework */,
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
@@ -563,7 +541,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				334BA55A1CE98D390068F714 /* EncryptionPlistManager.h in Headers */,
 				334BA54B1CE98D390068F714 /* CPComboBase.h in Headers */,
 				334BA5441CE98D390068F714 /* CPBaseViewController.h in Headers */,
 				2F29F5D1D4CD1428366FABEBAF82DA92 /* Canape-umbrella.h in Headers */,
@@ -575,7 +552,6 @@
 				334BA5741CE98D390068F714 /* CPFileUtils.h in Headers */,
 				334BA5721CE98D390068F714 /* CPDateUtils.h in Headers */,
 				334BA5681CE98D390068F714 /* CPToast.h in Headers */,
-				334BA5641CE98D390068F714 /* CommonToast.h in Headers */,
 				334BA5781CE98D390068F714 /* CPUIUtils.h in Headers */,
 				334BA53A1CE98D390068F714 /* CPActionSheet.h in Headers */,
 				334BA5581CE98D390068F714 /* CPLoader.h in Headers */,
@@ -586,7 +562,6 @@
 				334BA5461CE98D390068F714 /* CanapeConstants.h in Headers */,
 				334BA5701CE98D390068F714 /* CPCommonUtils.h in Headers */,
 				334BA56A1CE98D390068F714 /* CPToken.h in Headers */,
-				334BA5661CE98D390068F714 /* CommonToastButton.h in Headers */,
 				334BA5491CE98D390068F714 /* UIImage+CalendarCustomMethods.h in Headers */,
 				334BA55C1CE98D390068F714 /* PlistManager.h in Headers */,
 				334BA5521CE98D390068F714 /* CPHybridPluginBase.h in Headers */,
@@ -601,7 +576,6 @@
 				334BA5541CE98D390068F714 /* CPHybridPluginManager.h in Headers */,
 				334BA56C1CE98D390068F714 /* CPTokenText.h in Headers */,
 				334BA5401CE98D390068F714 /* CPBasePopupViewController.h in Headers */,
-				334BA54D1CE98D390068F714 /* CPEncryption.h in Headers */,
 				334BA5851CE98D390068F714 /* CPTabBar.h in Headers */,
 				334BA5871CE98D390068F714 /* CPViewPager.h in Headers */,
 				334BA53C1CE98D390068F714 /* CPAlert.h in Headers */,
@@ -698,7 +672,6 @@
 				334BA5791CE98D390068F714 /* CPUIUtils.m in Sources */,
 				334BA5571CE98D390068F714 /* CPImgLoader.m in Sources */,
 				334BA5511CE98D390068F714 /* CPHybridController.m in Sources */,
-				334BA55B1CE98D390068F714 /* EncryptionPlistManager.m in Sources */,
 				334BA5611CE98D390068F714 /* CPSelectableButtonGroup.m in Sources */,
 				334BA5751CE98D390068F714 /* CPFileUtils.m in Sources */,
 				334BA5711CE98D390068F714 /* CPCommonUtils.m in Sources */,
@@ -708,7 +681,6 @@
 				FBF7EF9AD6DFD47DE13CA7981E501894 /* Canape-dummy.m in Sources */,
 				334BA5531CE98D390068F714 /* CPHybridPluginBase.m in Sources */,
 				334BA5841CE98D390068F714 /* CPValidationForm.m in Sources */,
-				334BA5651CE98D390068F714 /* CommonToast.m in Sources */,
 				334BA53D1CE98D390068F714 /* CPAlert.m in Sources */,
 				334BA5861CE98D390068F714 /* CPTabBar.m in Sources */,
 				334BA5411CE98D390068F714 /* CPBasePopupViewController.m in Sources */,
@@ -718,10 +690,8 @@
 				334BA56B1CE98D390068F714 /* CPToken.m in Sources */,
 				334BA5431CE98D390068F714 /* CPBaseSubViewController.m in Sources */,
 				334BA57D1CE98D390068F714 /* CPTextFieldValidater.m in Sources */,
-				334BA5671CE98D390068F714 /* CommonToastButton.m in Sources */,
 				334BA5771CE98D390068F714 /* CPHelper.m in Sources */,
 				334BA55F1CE98D390068F714 /* CPSelectableButton.m in Sources */,
-				334BA54E1CE98D390068F714 /* CPEncryption.m in Sources */,
 				334BA57B1CE98D390068F714 /* CPComboValidater.m in Sources */,
 				334BA5591CE98D390068F714 /* CPLoader.m in Sources */,
 				334BA5811CE98D390068F714 /* CPValidater.m in Sources */,
@@ -856,6 +826,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 503BD21582CDEF215DA27F06869E20A1 /* Canape.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -864,6 +835,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Canape/Canape-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Canape/Info.plist";
@@ -885,6 +857,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 503BD21582CDEF215DA27F06869E20A1 /* Canape.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -893,6 +866,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Canape/Canape-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Canape/Info.plist";
