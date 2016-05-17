@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Canape"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Canape framework"
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,72 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Canape/Classes/**/*'
-  
+  s.source_files = 'Canape/Classes/CanapeConstants.h'
+
+  s.subspec 'ActionSheet' do |actionSheet|
+    actionSheet.source_files = "Canape/Classes/ActionSheet/*.{h,m}"
+  end
+
+  s.subspec 'Alert' do |alert|
+    alert.source_files = "Canape/Classes/Alert/*.{h,m}"
+  end
+
+  s.subspec 'BaseController' do |baseController|
+    baseController.source_files = "Canape/Classes/BaseController/*.{h,m}"
+  end
+
+  s.subspec 'Category' do |category|
+    category.source_files = "Canape/Classes/Category/*.{h,m}"
+  end
+
+  s.subspec 'Combo' do |combo|
+    combo.source_files = "Canape/Classes/Combo/*.{h,m}"
+  end
+
+  s.subspec 'Encryption' do |encryption|
+    encryption.source_files = "Canape/Classes/Encryption/*.{h,m}"
+  end
+
+  s.subspec 'Hybrid' do |hybrid|
+    hybrid.source_files = "Canape/Classes/Hybrid/*.{h,m}"
+  end
+
+  s.subspec 'Loader' do |loader|
+    loader.source_files = "Canape/Classes/Loader/*.{h,m}"
+  end
+
+  s.subspec 'PlistManager' do |plistManager|
+    plistManager.source_files = "Canape/Classes/PlistManager/*.{h,m}"
+  end
+
+  s.subspec 'SelectableButton' do |selectableButton|
+    selectableButton.source_files = "Canape/Classes/SelectableButton/*.{h,m}"
+  end
+
+  s.subspec 'StackView' do |stackView|
+    stackView.source_files = "Canape/Classes/StackView/*.{h,m}"
+  end
+
+  s.subspec 'Toast' do |toast|
+    toast.source_files = "Canape/Classes/Toast/*.{h,m}"
+  end
+
+  s.subspec 'Token' do |token|
+    token.source_files = "Canape/Classes/Token/*.{h,m}"
+  end
+
+  s.subspec 'Utils' do |utils|
+    utils.source_files = "Canape/Classes/Utils/*.{h,m}"
+  end
+
+  s.subspec 'Validation' do |validation|
+    validation.source_files = "Canape/Classes/Validation/*.{h,m}"
+  end
+
+  s.subspec 'ViewPager' do |viewPager|
+    viewPager.source_files = "Canape/Classes/ViewPager/*.{h,m}"
+  end
+
   s.resource_bundles = {
     'Canape' => ['Canape/Assets/*.png']
   }

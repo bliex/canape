@@ -135,7 +135,6 @@
 		334BA4FA1CE98D390068F714 /* CPHybridPluginBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPHybridPluginBase.m; sourceTree = "<group>"; };
 		334BA4FB1CE98D390068F714 /* CPHybridPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPHybridPluginManager.h; sourceTree = "<group>"; };
 		334BA4FC1CE98D390068F714 /* CPHybridPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPHybridPluginManager.m; sourceTree = "<group>"; };
-		334BA4FD1CE98D390068F714 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		334BA4FF1CE98D390068F714 /* CPImgLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPImgLoader.h; sourceTree = "<group>"; };
 		334BA5001CE98D390068F714 /* CPImgLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPImgLoader.m; sourceTree = "<group>"; };
 		334BA5011CE98D390068F714 /* CPLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLoader.h; sourceTree = "<group>"; };
@@ -292,13 +291,6 @@
 			path = Combo;
 			sourceTree = "<group>";
 		};
-		334BA4F21CE98D390068F714 /* Encryption */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Encryption;
-			sourceTree = "<group>";
-		};
 		334BA4F51CE98D390068F714 /* Hybrid */ = {
 			isa = PBXGroup;
 			children = (
@@ -450,9 +442,7 @@
 				334BA4E91CE98D390068F714 /* CanapeConstants.h */,
 				334BA4EA1CE98D390068F714 /* Category */,
 				334BA4EF1CE98D390068F714 /* Combo */,
-				334BA4F21CE98D390068F714 /* Encryption */,
 				334BA4F51CE98D390068F714 /* Hybrid */,
-				334BA4FD1CE98D390068F714 /* Info.plist */,
 				334BA4FE1CE98D390068F714 /* Loader */,
 				334BA5031CE98D390068F714 /* PlistManager */,
 				334BA5081CE98D390068F714 /* SelectableButton */,
