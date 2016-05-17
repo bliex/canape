@@ -28,22 +28,34 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Canape/Classes/CanapeConstants.h'
+# s.source_files = 'Canape/Classes/CanapeConstants.h'
+
+  s.subspec 'Category' do |category|
+    category.source_files = "Canape/Classes/Category/*.{h,m}"
+  end
+
+  s.subspec 'Common' do |common|
+    common.source_files = "Canape/Classes/CanapeConstants.h"
+    common.dependency "Canape/Category"
+  end
+
+  s.subspec 'Utils' do |utils|
+    utils.source_files = "Canape/Classes/Utils/*.{h,m}"
+    utils.dependency "Canape/Common"
+  end
 
   s.subspec 'ActionSheet' do |actionSheet|
     actionSheet.source_files = "Canape/Classes/ActionSheet/*.{h,m}"
+    actionSheet.dependency 'Canape/Utils'
   end
 
   s.subspec 'Alert' do |alert|
     alert.source_files = "Canape/Classes/Alert/*.{h,m}"
+    alert.dependency 'Canape/Utils'
   end
 
   s.subspec 'BaseController' do |baseController|
     baseController.source_files = "Canape/Classes/BaseController/*.{h,m}"
-  end
-
-  s.subspec 'Category' do |category|
-    category.source_files = "Canape/Classes/Category/*.{h,m}"
   end
 
   s.subspec 'Combo' do |combo|
@@ -56,6 +68,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Hybrid' do |hybrid|
     hybrid.source_files = "Canape/Classes/Hybrid/*.{h,m}"
+    hybrid.dependency "Canape/BaseController"
   end
 
   s.subspec 'Loader' do |loader|
@@ -64,6 +77,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'PlistManager' do |plistManager|
     plistManager.source_files = "Canape/Classes/PlistManager/*.{h,m}"
+    plistManager.dependency "Canape/Encryption"
   end
 
   s.subspec 'SelectableButton' do |selectableButton|
@@ -76,18 +90,16 @@ Pod::Spec.new do |s|
 
   s.subspec 'Toast' do |toast|
     toast.source_files = "Canape/Classes/Toast/*.{h,m}"
+    toast.dependency "Canape/Common"
   end
 
   s.subspec 'Token' do |token|
     token.source_files = "Canape/Classes/Token/*.{h,m}"
   end
 
-  s.subspec 'Utils' do |utils|
-    utils.source_files = "Canape/Classes/Utils/*.{h,m}"
-  end
-
   s.subspec 'Validation' do |validation|
     validation.source_files = "Canape/Classes/Validation/*.{h,m}"
+    validation.dependency "Canape/Combo"
   end
 
   s.subspec 'ViewPager' do |viewPager|
