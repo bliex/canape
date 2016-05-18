@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Canape"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "Canape framework"
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-# s.source_files = 'Canape/Classes/CanapeConstants.h'
+  s.source_files = 'Canape/Classes/Canape.h'
 
   s.subspec 'Category' do |category|
     category.source_files = "Canape/Classes/Category/*.{h,m}"

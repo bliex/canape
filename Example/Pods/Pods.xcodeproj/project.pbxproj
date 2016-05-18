@@ -80,6 +80,7 @@
 		334BA5861CE98D390068F714 /* CPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5371CE98D390068F714 /* CPTabBar.m */; };
 		334BA5871CE98D390068F714 /* CPViewPager.h in Headers */ = {isa = PBXBuildFile; fileRef = 334BA5381CE98D390068F714 /* CPViewPager.h */; };
 		334BA5881CE98D390068F714 /* CPViewPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 334BA5391CE98D390068F714 /* CPViewPager.m */; };
+		336310991CEC303A00536A59 /* Canape.h in Headers */ = {isa = PBXBuildFile; fileRef = 336310971CEC303000536A59 /* Canape.h */; };
 		33E556E31CE9C249002D116A /* CPEncryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E556E11CE9C249002D116A /* CPEncryption.h */; };
 		33E556E41CE9C249002D116A /* CPEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E556E21CE9C249002D116A /* CPEncryption.m */; };
 		33E556E71CE9C254002D116A /* EncryptionPlistManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E556E51CE9C254002D116A /* EncryptionPlistManager.h */; };
@@ -181,6 +182,7 @@
 		334BA5381CE98D390068F714 /* CPViewPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPViewPager.h; sourceTree = "<group>"; };
 		334BA5391CE98D390068F714 /* CPViewPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPViewPager.m; sourceTree = "<group>"; };
 		334BA5891CE9A27A0068F714 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		336310971CEC303000536A59 /* Canape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Canape.h; sourceTree = "<group>"; };
 		33E556E11CE9C249002D116A /* CPEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPEncryption.h; sourceTree = "<group>"; };
 		33E556E21CE9C249002D116A /* CPEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPEncryption.m; sourceTree = "<group>"; };
 		33E556E51CE9C254002D116A /* EncryptionPlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionPlistManager.h; sourceTree = "<group>"; };
@@ -452,6 +454,7 @@
 				334BA51E1CE98D390068F714 /* Utils */,
 				334BA5291CE98D390068F714 /* Validation */,
 				334BA5351CE98D390068F714 /* ViewPager */,
+				336310971CEC303000536A59 /* Canape.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -573,6 +576,7 @@
 				334BA5801CE98D390068F714 /* CPValidater.h in Headers */,
 				334BA5461CE98D390068F714 /* CanapeConstants.h in Headers */,
 				334BA5701CE98D390068F714 /* CPCommonUtils.h in Headers */,
+				336310991CEC303A00536A59 /* Canape.h in Headers */,
 				334BA56A1CE98D390068F714 /* CPToken.h in Headers */,
 				334BA5491CE98D390068F714 /* UIImage+CalendarCustomMethods.h in Headers */,
 				334BA55C1CE98D390068F714 /* PlistManager.h in Headers */,
