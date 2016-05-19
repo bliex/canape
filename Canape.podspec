@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Canape/Classes/Canape.h'
+  s.public_header_files = 'Canape/Classes/Canape.h'
 
   s.subspec 'Category' do |category|
     category.source_files = "Canape/Classes/Category/*.{h,m}"
