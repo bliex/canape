@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Canape"
-  s.version          = "0.1.0"
+  s.version          = “0.1.1”
   s.summary          = "Canape framework"
 
 # This description is used to generate tags and improve search results.
@@ -112,6 +112,7 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.ios.frameworks = 'Security'
   # s.dependency 'CommonCrypto', '~> 1.1'
+
 end
